@@ -1,0 +1,7 @@
+// Android.bp
+android_app_import {
+    name: "flauncher",
+    apk: "flauncher.apk",
+    certificate: "platform",
+    presigned: false,
+}
